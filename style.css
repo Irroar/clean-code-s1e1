@@ -13,7 +13,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .more-inf {
+.header .more-info {
   font-family: fantasy, cursive;
 }
 
@@ -24,7 +24,7 @@ body {
   }
 
 }
-.centered-main-page-element {
+.centered-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -46,7 +46,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 button {
