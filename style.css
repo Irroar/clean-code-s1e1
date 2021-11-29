@@ -24,17 +24,17 @@ body {
   }
 
 }
-.centered-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.add-item__task-wrapper__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-item__task-wrapper {
   display: flex;
 }
 ul {
@@ -93,7 +93,7 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.add-item__task-wrapper__task_new {
   width: 318px;
 }
 
@@ -143,11 +143,11 @@ ul li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.todo-tasks__elem_edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.todo-tasks__elem_edit label {
   display: none;
 }
